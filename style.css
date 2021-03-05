@@ -111,7 +111,7 @@ body {
     border-radius: 50%;
     box-shadow: inset 0 0 20px #03a9f4,
                 0 0 120px #03a9f4;
-    animation: animateEarth 20s linear infinite ;
+    animation: animateEarth 15s linear infinite ;
 }
 
 
@@ -121,18 +121,17 @@ body {
     }
 
     100% {
-        background-position: 195.5% ;
+        background-position: 165.5% ;
     }
 }
 
 
 footer{
     position: fixed;
-    margin: 5px;
     padding: 5px;
     bottom: 0;
     width: 100%;
-    background: transparent;
+    background: rgba(91, 138, 153, 0.658);
     color: #fff;
     font-size: 1.1em;
     text-align: center;
@@ -174,7 +173,7 @@ footer{
         position: relative;
         background: #182357;
         width: 100%;
-        height: 80vh;
+        height: 80%;
         justify-content: center;
         align-items: center;
     }
