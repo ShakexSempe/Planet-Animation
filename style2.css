@@ -98,11 +98,14 @@
 
 @media only screen and (max-width: 768px){
     
-    
+    .planet .container {
+        -webkit-box-reflect: none;
+    }
     .planetMoon {
         position: relative;
         background: #190703;
         width: 100%;
+        height: 70vh;
         justify-content: center;
         align-items: center;
     }

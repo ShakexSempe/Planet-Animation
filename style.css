@@ -118,25 +118,25 @@ body {
 
 @keyframes animateEarth {
     0% {
-        background-position: bottom left;
+        background-position:0;
     }
 
     100% {
-        background-position: 195.5% top ;
+        background-position: 195.5% ;
     }
 }
 
 
 footer{
     position: fixed;
-    margin: 3px;
-    padding: 3px;
+    margin: 5px;
+    padding: 5px;
     bottom: 0;
     width: 100%;
     background: transparent;
     color: #fff;
     font-size: 1.1em;
-    text-align: left
+    text-align: center;
 }
 
 
@@ -146,16 +146,19 @@ footer{
     body {
         display: flex;
         flex-direction: column-reverse;
+        /* height: auto;
+        overflow: auto; */
     }
 
 
     .planet {
         display: flex;
         flex-direction: column;
+        height: 100vh;
     }
     .planet h2 {
-        color: #fff;
         font-size: 2em;
+        color: rgba(255, 255, 255, 0.103);
         margin-bottom: 20px;
         font-weight: 500;
     }
@@ -165,13 +168,14 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        -webkit-box-reflect: below 1px linear-gradient(#0001, #0002);
+    -webkit-box-reflect: right ;
+
     }
     .planetEarth {
         position: relative;
         background: #182357;
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         justify-content: center;
         align-items: center;
     }
