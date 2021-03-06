@@ -108,6 +108,7 @@
         justify-content: center;
         align-items: center;
         background: linear-gradient(0deg, #182257 ,#000);
+        font-family: 'Arvo', serif;
     }
     .planetMoon .loader {
         width: 180px;

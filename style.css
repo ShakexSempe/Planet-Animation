@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Taviraj:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +38,12 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+}
+.planetEarth h2{
+    font-family: 'Comfortaa', cursive;
+}
+.planetMoon h2{
+    font-family: 'Taviraj', cursive;
 }
 .planetEarth .loader {
     position: relative;
