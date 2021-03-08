@@ -30,7 +30,7 @@
     left: 0;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to top, transparent, #7070703f);
+    background: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.425));
     background-size: 200px 360px;
     background-repeat: no-repeat;
     border-top-left-radius: 200px;
@@ -44,19 +44,19 @@
     transform: translate(-50%);
     width: 10px;
     height: 10px;
-    background: #eeebeb;
+    background: rgb(207, 240, 141);
     border-radius: 50%;
     z-index: 10;
-    box-shadow: 0 0 10px #aaa29f,
+    box-shadow: 0 0 10px yellowgreen,
     0 0 10px #aaa29f,
-    0 0 20px #aaa29f,
-    0 0 30px #aaa29f,
+    0 0 20px yellowgreen,
+    0 0 30px yellowgreen,
     0 0 40px #aaa29f,
-    0 0 50px #aaa29f,
+    0 0 50px yellowgreen,
     0 0 60px #aaa29f,
-    0 0 70px #aaa29f,
+    0 0 70px yellowgreen,
     0 0 80px #aaa29f,
-    0 0 90px #aaa29f,
+    0 0 90px yellowgreen,
     0 0 100px #aaa29f;
 }
 /*span to cover loader::after leaving only 10px visible with a 50% border radius*/
@@ -66,7 +66,7 @@
     left: 10px;
     right: 10px;
     bottom: 10px; 
-    background:#000000;
+    background:#000;
     
     border-radius: 50%;
 }
@@ -81,7 +81,8 @@
     background-size: 200%;
     border-radius: 50%;
     box-shadow: inset 0 0 20px #272726,
-                0 0 120px #aaa29f;
+                0 0 60px rgba(153, 205, 50, 0.288),
+                0 0 70px #aaa29f;
     animation: animateMars 15s linear infinite alternate;
 
 }
@@ -107,7 +108,7 @@
         height: 40%;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(0deg, #182257 ,#000);
+        /* background: linear-gradient(0deg, #182257 ,#000); */
         font-family: 'Arvo', serif;
     }
     .planetMoon .loader {
@@ -119,5 +120,24 @@
         width: 140px;
         height: 140px;
         background-size: 250%
+    }
+    .planetMoon .loader::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        width: 10px;
+        height: 10px;
+        background: #eeebeb;
+        border-radius: 50%;
+        z-index: 10;
+        box-shadow: 0 0 10px #aaa29f,
+        0 0 10px #aaa29f,
+        0 0 20px #aaa29f,
+        0 0 30px #aaa29f,
+        0 0 40px #aaa29f,
+        0 0 50px #aaa29f;
+        
     }
 }
