@@ -47,16 +47,16 @@
     background: rgb(207, 240, 141);
     border-radius: 50%;
     z-index: 10;
-    box-shadow: 0 0 10px yellowgreen,
+    box-shadow: 0 0 10px #aaa29f,
     0 0 10px #aaa29f,
-    0 0 20px yellowgreen,
-    0 0 30px yellowgreen,
+    0 0 20px #aaa29f,
+    0 0 30px #aaa29f,
     0 0 40px #aaa29f,
-    0 0 50px yellowgreen,
+    0 0 50px #aaa29f,
     0 0 60px #aaa29f,
-    0 0 70px yellowgreen,
+    0 0 70px #aaa29f,
     0 0 80px #aaa29f,
-    0 0 90px yellowgreen,
+    0 0 90px #aaa29f,
     0 0 100px #aaa29f;
 }
 /*span to cover loader::after leaving only 10px visible with a 50% border radius*/
@@ -80,9 +80,8 @@
     background: url(moon2.jpg);
     background-size: 200%;
     border-radius: 50%;
-    box-shadow: inset 0 0 20px #272726,
-                0 0 60px rgba(153, 205, 50, 0.288),
-                0 0 70px #aaa29f;
+    box-shadow: inset 0 0 20px #1d1d1c,
+                0 0 100px #aaa29f;
     animation: animateMars 15s linear infinite alternate;
 
 }
