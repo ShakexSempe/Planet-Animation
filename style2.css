@@ -12,7 +12,7 @@
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    animation: animate 15s linear infinite alternate;
+    animation: animate 35s linear infinite;
     
 }
 @keyframes animate {
@@ -20,7 +20,7 @@
         transform: rotate(0deg);
     }
     100%{
-        transform: rotate(300deg);
+        transform: rotate(360deg);
     }
 }
 .planetMoon .loader:before {
@@ -28,8 +28,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 100%;
+    width: 47%;
+    height: 90%;
     background: linear-gradient(to top, transparent, rgba(255, 255, 255, 0.425));
     background-size: 200px 360px;
     background-repeat: no-repeat;
@@ -79,20 +79,34 @@
     height: 340px;
     background: url(moon2.jpg);
     background-size: 200%;
+    background-position: 12%;
     border-radius: 50%;
     box-shadow: inset 0 0 20px #1d1d1c,
                 0 0 100px #aaa29f;
-    animation: animateMars 15s linear infinite alternate;
+    animation: animateMoon 35s linear infinite ;
 
 }
 
-@keyframes animateMars {
-    0% {
-        background-position: 6% ;
+@keyframes animateMoon {
+    0%{
+        background-position: 10% ;
+        box-shadow: inset -90px -100px 40px #000000e3,
+        0 0 100px #aaa29f;
     }
-
+    
+    30% {
+        box-shadow: inset 0px -80px 40px #000000e3,
+        0 0 100px #aaa29f;
+    }
+    60%{
+        
+        box-shadow: inset 0px 90px 40px #000000e3,
+        0 0 100px #aaa29f;
+    }
     100% {
-        background-position: 90%;
+        box-shadow: inset -90px -100px 40px #000000e3,
+                0 0 100px #aaa29f;
+        background-position: 70%;
     }
 }
 
@@ -118,7 +132,8 @@
     .moon{
         width: 140px;
         height: 140px;
-        background-size: 250%
+        background-size: 250%;
+
     }
     .planetMoon .loader::after {
         content: '';
@@ -139,4 +154,27 @@
         0 0 50px #aaa29f;
         
     }
+
+    @keyframes animateMoon {
+    0%{
+        background-position: 20% ;
+        box-shadow: inset -20px -30px 40px #000,
+        0 0 100px #aaa29f;
+    }
+    
+    30% {
+        box-shadow: inset 20px -30px 40px #000,
+        0 0 100px #aaa29f;
+    }
+    60%{
+        
+        box-shadow: inset 0px 30px 40px #000,
+        0 0 100px #aaa29f;
+    }
+    100% {
+        box-shadow: inset -20px -30px 40px #000,
+                0 0 100px #aaa29f;
+        background-position: 70%;
+    }
+}
 }
