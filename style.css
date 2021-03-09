@@ -66,7 +66,7 @@ body {
     top: 0;
     left: 0;
     width: 50%;
-    height: 100%;
+    height: 95%;
     background: linear-gradient(to top, transparent, rgba(0,255,249,0.4));
     background-size: 200px 360px;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body {
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    width: 10px;
+    width: 20px;
     height: 10px;
     background: #00fff9;
     border-radius: 50%;
@@ -118,17 +118,17 @@ body {
     border-radius: 50%;
     box-shadow: inset 0 0 20px #03a9f4,
                 0 0 120px #03a9f4;
-    animation: animateEarth 15s linear infinite ;
+    animation: animateEarth 30s linear infinite ;
 }
 
 
 @keyframes animateEarth {
     0% {
-        background-position:0;
+        background-position: 0;
     }
 
     100% {
-        background-position: 165.5% ;
+        background-position: 197.5%;
     }
 }
 
@@ -194,4 +194,15 @@ footer{
         height: 240px;
         background-size: 250%;
     }
+
+    
+@keyframes animateEarth {
+    0% {
+        background-position:0;
+    }
+
+    100% {
+        background-position: 167% ;
+    }
+}
 }
