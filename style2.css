@@ -77,36 +77,36 @@
     position: absolute;
     width: 340px;
     height: 340px;
-    background: url(moon2.jpg);
-    background-size: 200%;
+    background: url(moonR.jpg);
+    background-size: cover;
     background-position: 12%;
     border-radius: 50%;
     box-shadow: inset 0 0 20px #1d1d1c,
                 0 0 100px #aaa29f;
-    animation: animateMoon 35s linear infinite alternate ;
+    animation: animateMoon 35s linear infinite  ;
 
 }
 
 @keyframes animateMoon {
     0%{
-        background-position: 10% ;
-        box-shadow: inset -90px -100px 40px #000000e3,
+        background-position: 0% ;
+        box-shadow: inset -90px -100px 40px #000,
         0 0 100px #aaa29f;
     }
     
     30% {
-        box-shadow: inset 0px -80px 40px #000000e3,
+        box-shadow: inset 0px -80px 40px #000,
         0 0 100px #aaa29f;
     }
     60%{
         
-        box-shadow: inset 0px 90px 40px #000000e3,
+        box-shadow: inset 0px 90px 40px #000,
         0 0 100px #aaa29f;
     }
     100% {
-        box-shadow: inset -90px -100px 40px #000000e3,
+        box-shadow: inset -90px -100px 40px #000,
                 0 0 100px #aaa29f;
-        background-position: 70%;
+        background-position: 200%;
     }
 }
 
@@ -157,7 +157,7 @@
 
     @keyframes animateMoon {
     0%{
-        background-position: 10% ;
+        background-position: 0% ;
         box-shadow: inset -20px -30px 40px #000,
         0 0 100px #aaa29f;
     }
@@ -174,7 +174,7 @@
     100% {
         box-shadow: inset -20px -30px 40px #000,
                 0 0 100px #aaa29f;
-        background-position: 90%;
+        background-position: 167%;
     }
 }
 }
