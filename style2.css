@@ -132,7 +132,6 @@
     .moon{
         width: 140px;
         height: 140px;
-        background-size: 250%;
 
     }
     .planetMoon .loader::after {
