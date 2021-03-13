@@ -67,7 +67,7 @@ body {
     left: 0;
     width: 50%;
     height: 95%;
-    background: linear-gradient(to top, transparent, #92d30f5e);
+    background: linear-gradient(to top, transparent, #91870675);
     background-size: 200px 360px;
     background-repeat: no-repeat;
     border-top-left-radius: 200px;
@@ -81,11 +81,10 @@ body {
     transform: translate(-50%);
     width: 20px;
     height: 10px;
-    background: #92d30f;
+    background: #ecdd06;
     border-radius: 50%;
     z-index: 10;
     box-shadow: 0 0 10px #92d30f,
-    0 0 10px #92d30f,
     0 0 20px #92d30f,
     0 0 30px #92d30f,
     0 0 40px #92d30f,
