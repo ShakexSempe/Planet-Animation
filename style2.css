@@ -44,20 +44,20 @@
     transform: translate(-50%);
     width: 10px;
     height: 10px;
-    background: rgb(207, 240, 141);
+    background: #72f183;
     border-radius: 50%;
     z-index: 10;
-    box-shadow: 0 0 10px #aaa29f,
-    0 0 10px #aaa29f,
-    0 0 20px #aaa29f,
-    0 0 30px #aaa29f,
-    0 0 40px #aaa29f,
-    0 0 50px #aaa29f,
-    0 0 60px #aaa29f,
-    0 0 70px #aaa29f,
-    0 0 80px #aaa29f,
-    0 0 90px #aaa29f,
-    0 0 100px #aaa29f;
+    box-shadow: 0 0 10px #00fff9,
+    0 0 10px #00fff9,
+    0 0 20px #00fff9,
+    0 0 30px #00fff9,
+    0 0 40px #00fff9,
+    0 0 50px #00fff9,
+    0 0 60px #00fff9,
+    0 0 70px #00fff9,
+    0 0 80px #00fff9,
+    0 0 90px #00fff9,
+    0 0 100px #00fff9;
 }
 /*span to cover loader::after leaving only 10px visible with a 50% border radius*/
 .planetMoon .loader span {
@@ -99,7 +99,7 @@
         0 0 100px #aaa29f;
     }
     
-    65%{
+    65% {
         
         box-shadow: inset -20px 100px 40px rgba(0, 0, 0, 0.945),
         0 0 100px #aaa29f;
