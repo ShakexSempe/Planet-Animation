@@ -146,11 +146,11 @@
         background: #eeebeb;
         border-radius: 50%;
         z-index: 10;
-        box-shadow: 0 0 10px #aaa29f,
-        0 0 10px #aaa29f,
+        box-shadow: 0 0 10px #00fff9,
+        0 0 10px #00fff9,
         0 0 20px #aaa29f,
         0 0 30px #aaa29f,
-        0 0 40px #aaa29f,
+        0 0 40px #00fff9,
         0 0 50px #aaa29f;
         
     }
