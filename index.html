@@ -29,7 +29,12 @@
     </div>
 
     <footer>
-        <p>Shakex Sempe 2021</p>
+        <p>Shakex Sempe <span id="date"></span> </p>
     </footer>
+
+    <script>
+        date = document.getElementById('date');
+        date.innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
