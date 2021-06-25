@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+:root {
+    --earth-inset-shadow: skyblue;
+    --earth-shadow: #dddddd63;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -33,7 +38,7 @@ body {
 }
 .planetEarth {
     position: relative;
-    background: #182257;
+    background: #000;
     min-width: 50%;
     height: 100vh;
     justify-content: center;
@@ -103,7 +108,7 @@ body {
     right: 10px;
     bottom: 10px; 
     border-radius: 50%;
-    background: #182357;
+    background: #000;
 }
 
 
@@ -124,26 +129,26 @@ body {
 0%{
     background-position: 0% ;
     box-shadow: inset -100px -100px 20px rgba(0, 0, 0, 0.938),
-                inset 5px 10px 15px #99cd32c0,
-                    -5px -10px 10px rgba(135, 207, 235, 0.438);
+                inset 5px 10px 15px var(--earth-inset-shadow),
+                    -5px -10px 10px var(--earth-shadow);
 }
 
 30% {
     box-shadow: inset 50px 0px 30px rgba(0, 0, 0, 0.938),
-                inset -10px -10px 15px #99cd32c0,
-                    10px 10px 10px rgba(135, 207, 235, 0.432);
+                inset -10px -10px 15px var(--earth-inset-shadow),
+                    10px 10px 10px var(--earth-shadow);
 }
 
 60% {
     
     box-shadow: inset -20px 100px 20px rgba(0, 0, 0, 0.711),
-                inset 10px 0px 15px #99cd32c0,
-                    -10px 10px 10px rgba(135, 207, 235, 0.432);
+                inset 10px 0px 15px var(--earth-inset-shadow),
+                    -10px 10px 10px var(--earth-shadow);
 }
 100% {
     box-shadow: inset -100px -100px 20px rgba(0, 0, 0, 0.938),
-                inset 5px 10px 15px #99cd32c0,
-                -5px -10px 10px rgba(135, 207, 235, 0.438);
+                inset 5px 10px 15px var(--earth-inset-shadow),
+                -5px -10px 10px var(--earth-shadow);
                 background-position: 200%;
 }
 }
@@ -217,26 +222,26 @@ footer{
         0%{
             background-position: 0% ;
             box-shadow: inset -60px -50px 10px rgba(0, 0, 0, 0.851),
-                        inset 5px 5px 15px #99cd32c0,
-                            -5px -5px 10px skyblue;
+                        inset 5px 5px 15px var(--earth-inset-shadow),
+                            -5px -5px 10px var(--earth-shadow);
         }
         
         40% {
             box-shadow: inset 50px 0px 10px rgba(0, 0, 0, 0.851),
-                        inset -5px 0px 15px #99cd32c0,
-                            5px 0px 10px skyblue;
+                        inset -5px 0px 15px var(--earth-inset-shadow),
+                            5px 0px 10px var(--earth-shadow);
         }
         
         70% {
             
             box-shadow: inset -50px 20px 10px rgba(0, 0, 0, 0.851),
-                        inset    5px -10px 15px #99cd32c0,
-                                -5px 10px 10px skyblue;
+                        inset    5px -10px 15px var(--earth-inset-shadow),
+                                -5px 10px 10px var(--earth-shadow);
         }
         100% {
             box-shadow: inset -60px -50px 10px rgba(0, 0, 0, 0.851),
-                        inset    5px 5px 15px #99cd32c0,
-                        -5px -5px 10px skyblue;
+                        inset    5px 5px 15px var(--earth-inset-shadow),
+                        -5px -5px 10px var(--earth-shadow);
                         background-position: 167%;
         }
         }
