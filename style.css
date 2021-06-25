@@ -124,21 +124,25 @@ body {
 0%{
     background-position: 0% ;
     box-shadow: inset -100px -100px 20px rgba(0, 0, 0, 0.938),
+                inset 5px 10px 15px #99cd32c0,
                     -5px -10px 10px rgba(135, 207, 235, 0.438);
 }
 
 30% {
-    box-shadow: inset 100px 0px 30px rgba(0, 0, 0, 0.938),
-                10px 10px 10px rgba(135, 207, 235, 0.432);
+    box-shadow: inset 50px 0px 30px rgba(0, 0, 0, 0.938),
+                inset -10px -10px 15px #99cd32c0,
+                    10px 10px 10px rgba(135, 207, 235, 0.432);
 }
 
 60% {
     
     box-shadow: inset -20px 100px 20px rgba(0, 0, 0, 0.711),
-                -10px 10px 10px rgba(135, 207, 235, 0.432);
+                inset 10px 0px 15px #99cd32c0,
+                    -10px 10px 10px rgba(135, 207, 235, 0.432);
 }
 100% {
     box-shadow: inset -100px -100px 20px rgba(0, 0, 0, 0.938),
+                inset 5px 10px 15px #99cd32c0,
                 -5px -10px 10px rgba(135, 207, 235, 0.438);
                 background-position: 200%;
 }
